@@ -1,0 +1,61 @@
+.bread-crumb {
+  background-image: linear-gradient(
+      180deg,
+      rgba(1, 1, 1, 0.5),
+      rgba(40, 39, 39, 0.5)
+    ),
+    url("https://bizweb.dktcdn.net/100/487/743/themes/912230/assets/breadcrumb.jpg?1710378319730");
+
+  background-size: cover; /* hoặc auto, contain, hoặc kích thước mong muốn */
+  background-position: center; /* vị trí của hình nền */
+  height: 250px; /* chiều cao section */
+  width: 100%; /* chiều rộng section, có thể điều chỉnh tùy vào thiết kế */
+  display: block;
+}
+.bread-crumb div {
+  width: 100%;
+  height: 100%;
+}
+.bread-crumb div h1 {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+}
+.registerForm input {
+  border-bottom: 2px solid black;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+}
+.registerForm button {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 10px 0;
+  border: none;
+}
+.registerForm button:hover {
+  background-color: #d1a02f;
+  color: white;
+}
+
+.login {
+  color: black;
+  font-size: 18px;
+}
+.login:hover {
+  color: #d1a02f;
+}
+.error {
+  color: red;
+}
+.modal-title {
+  color: green;
+}
+
+.content button.btn-close:hover{
+  opacity: 1;
+  background-color: rgb(244, 53, 53);
+}
+.RegisterSuccess{
+  margin-top: 100px;
+}

@@ -1,0 +1,124 @@
+svg {
+    color: #d1a02f;
+  }
+  
+  .header-link a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .header-link a:hover {
+    color: #d1a02f;
+    transition: 0.25s;
+  }
+  
+  .header-top {
+    background-color: black;
+  }
+  
+  .search {
+    border: 2px solid black;
+    border-radius: 50ch;
+  }
+  
+  .input-group input:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .input-group button:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .black-icon {
+    color: #000000;
+  }
+  
+  .button-icon:hover {
+    background-color: #d1a02f;
+    transition: 0.75s;
+  }
+  
+  .button-icon:hover .black-icon {
+    color: white;
+  }
+  
+  .button-icon {
+    border: none;
+    background-color: initial;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: block;
+  }
+  
+  .dropdown .button-icon {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .button-icon svg {
+    vertical-align: middle;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    font-size: 18px;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: flex;
+    border: 2px solid white;
+  }
+  
+  .dropdown-content a:hover {
+    color: #d1a02f;
+    border: 2px solid #d1a02f;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .button-icon {
+    background-color: #d1a02f;
+  }
+  
+  .dropdown:hover .button-icon .black-icon {
+    color: white;
+  }
+  
+  /* Menu */
+  .header-menu {
+    background-color: black;
+  }
+  
+  .header-menu .nav-pills .nav-link {
+    color: white;
+    font-size: 18px;
+    border-radius: 0;
+  }
+  
+  .header-menu .nav-pills .nav-link.active {
+    background-color: #d1a02f;
+  }
+  
+  .header-menu .nav-pills .nav-link:hover {
+    background-color: #d1a02f;
+    color: white;
+    transition: 0.5s;
+  }
